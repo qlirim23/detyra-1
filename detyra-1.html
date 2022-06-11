@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body{
+            background: #C0C0C0;
+            padding: 10px;
+            margin: 20px
+        }
+        .navbar{
+            background: rgb(238, 153, 153);
+            
+            padding-left: 46%;
+            border-radius: 5px solid black;
+        }
+        table, tr, th {
+            border: 1px solid black;
+        } 
+        .body{
+            background: rgb(204, 206, 111);
+        }
+        .contact{
+            background:rgb(104, 104, 189)
+        }
+        .img{
+            border-radius: 50%;
+        }
+        .fieldset{
+            margin-top: 50px;
+        }
+
+        .contact{
+            text-align: center;
+            margin: 100px 100px;
+        }
+        .footer{
+            background:rgb(32, 32, 32);
+            color: purple;
+            font-size: 30px;
+            padding: 20px;
+            margin: 20px ;
+            justify-content: center;
+            display:block;
+            justify-content: center;
+        }
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="navbar">
+            <table border="1" cellpadding="15" cellspacing="15">
+                <tr>
+                    <th colspan="2">CV</th>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"> <img class="img" src="assets/foto.jpeg" width="120" height="auto"></td>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <td>Clirim</td>
+                </tr>
+                <tr>
+                    <th>Surname</th>
+                    <td>Kamberi</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>Kambericlirim2@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>+381621572662</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <th>Date of birth</th>
+                    <td>01/04/1999</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Albanian</td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <fieldset>
+                <legend>WORK EXPERIENCE</legend>
+                <h3>Web developer</h3>
+                <h4>Personal project</h4>
+                <p>Main activities and responsibilities:
+                    Developed a website as portfolio for a professional photographer for practice and
+                    experience:</p>
+                    <ul>
+                        <li>Worked with HTML</li>
+                        <li>Worked with CSS</li>
+                        <li>Worked with JavaScript</li>
+                        <li>Worked with PHP</li>
+                    </ul>
+
+                <h3>Web developer</h3>
+                <h4>Personal project</h4>
+                <P>Main activities and responsibilities:
+                    Developed a small Todo app as practice for working with JavaScript:</P>
+                    <ul>
+                        <li>Worked with HTML</li>
+                        <li>Worked with CSS</li>
+                        <li>Worked with JavaScript</li>
+                    </ul>
+                    
+                    <h3>Web developer</h3>
+                    <h4>Personal project</h4>
+                    <p>Main activities and responsibilities:
+                        Started learning about React and its eco system, developed a booking application to
+                        make reservations for restaurants:</p>
+                        <ul>
+                            <li>Worked with JSX</li>
+                            <li>Worked with CSS</li>
+                            <li>Worked with Reactjs</li>
+                            <li>API communication (CRUD)</li>
+                        </ul>       
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>EDUCATION AND TRAINING</legend>
+                    <h3>Fullstack developer</h3>
+                    <h3><i>Per Programera</i></h3>
+            </fieldset>
+        </div>
+        <div class="contact">
+            <form action="#">
+                <fieldset>
+                    <legend>Contact me</legend>
+                    <input type="name" name="name" placeholder="Enter your name"><br><br><br>
+                    <input type="email" name="email" placeholder="Enter your email"><br><br><br>
+                    <textarea name="comment" form="usrform">Enter text here...</textarea><br><br><br>
+                    <button type="submit">Submit</button>
+                </fieldset> 
+            </form>
+        </div>
+        <div class="footer">
+            <h4>Worked</h4>
+            <a href="#" target="_blank">Kambericlirim2@gmail.com</a>
+            <h4>Company</h4>
+            <a href="https://bootcamp.perprogramera.com/">Per Programera</a>
+        </div>
+   </div>
+        
+</body>
+</html>
